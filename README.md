@@ -1,9 +1,5 @@
 # Data_Enginner_Flatform
 
-<table>
-  <tr>
-    <td>
-
 <h2>Data_Engineer_Platform</h2>
 
 <table>
@@ -40,3 +36,4 @@
     </td>
   </tr>
 </table>
+
