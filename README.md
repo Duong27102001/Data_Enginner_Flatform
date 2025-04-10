@@ -1,12 +1,8 @@
-<div style="display: flex; gap: 40px; justify-content: center;">
+<div style="display: flex; justify-content: center; gap: 40px;">
 
+  <!-- Bảng 1 -->
   <table border="1" style="border-collapse: collapse; min-width: 350px;">
-    <thead>
-      <tr>
-        <th>Attribute</th>
-        <th>Description</th>
-      </tr>
-    </thead>
+    <thead><tr><th>Attribute</th><th>Description</th></tr></thead>
     <tbody>
       <tr><td><code>name</code></td><td>Tên công ty đã niêm yết trên sàn chứng khoán</td></tr>
       <tr><td><code>ticker</code></td><td>Ký hiệu trên sàn giao dịch <br>→ Tra cứu và xác định giá cổ phiếu</td></tr>
@@ -20,13 +16,9 @@
     </tbody>
   </table>
 
+  <!-- Bảng 2 -->
   <table border="1" style="border-collapse: collapse; min-width: 350px;">
-    <thead>
-      <tr>
-        <th>Attribute</th>
-        <th>Description</th>
-      </tr>
-    </thead>
+    <thead><tr><th>Attribute</th><th>Description</th></tr></thead>
     <tbody>
       <tr><td><code>sic</code></td><td>Mã ngành nghề theo phân loại SIC</td></tr>
       <tr><td><code>sicSector</code></td><td>Ngành rộng theo mã SIC</td></tr>
