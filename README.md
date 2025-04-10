@@ -49,7 +49,7 @@
 **API for news sentimets* </br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Source: [alphavantage.co - News Sentiment](https://www.alphavantage.co/documentation/#news-sentiment).  </br>
 &nbsp;&nbsp;&nbsp;&nbsp;- API Alpha Vantage cung cấp thông tin về sentiment của các tin tức và cảm xúc thị trường liên quan đến cổ phiếu.</br>
-
+&nbsp;&nbsp;&nbsp;&nbsp;- Dữ liệu sau khi thu thập sẽ bao gồm các thuộc tính sau: </br>
 | Attribute                  | Description                                      |
 |----------------------------|--------------------------------------------------|
 | `title`                    | Tiêu đề bài viết                                 |
@@ -69,6 +69,20 @@
 | `ticker_sentiment_label`   | Nhãn cảm xúc của cổ phiếu                        |
 
 ### c. Polygon
+&nbsp;&nbsp;&nbsp;&nbsp;- Source: [polygon.io - Daily Market Summary](https://polygon.io/docs/rest/stocks/aggregates/daily-market-summary).  </br>
+&nbsp;&nbsp;&nbsp;&nbsp;-	API này giúp truy xuất dữ liệu OHRC(giá mở cửa, cao nhất, thấp nhất và đóng cửa) hàng ngày của tất cả các cổ phiếu trên thị trường chứng khoán mỹ.
+&nbsp;&nbsp;&nbsp;&nbsp;- Dữ liệu sau khi thu thập sẽ bao gồm các thuộc tính sau: </br>
+| Attribute | Description                                                                 |
+|-----------|-----------------------------------------------------------------------------|
+| `T`       | Mã cổ phiếu – Ký hiệu đại diện cho cổ phiếu của công ty trên sàn giao dịch |
+| `o`       | Giá mở cửa (Open Price) – Mức giá đầu tiên được giao dịch trong ngày     |
+| `h`       | Giá cao nhất (High Price) – Mức giá cao nhất cổ phiếu đạt được trong ngày |
+| `l`       | Giá thấp nhất (Low Price) – Mức giá thấp nhất cổ phiếu rơi xuống trong ngày |
+| `c`       | Giá đóng cửa (Close Price) – Mức giá cuối cùng của cổ phiếu trong ngày giao dịch |
+| `v`       | Khối lượng giao dịch (Volume) – Tổng số lượng cổ phiếu được mua bán trong ngày |
+| `vw`      | Giá trung bình theo khối lượng (Volume Weighted Average Price) – Giá trung bình có trọng số theo khối lượng giao dịch, thể hiện xu hướng giá thực tế trong ngày |
+| `n`       | Số lượng giao dịch (Number of Transactions) – Tổng số lần giao dịch diễn ra trong ngày |
+| `t`       | Thời gian giao dịch (Timestamp) – Mốc thời gian thể hiện ngày diễn ra giao dịch, thường được biểu thị theo Unix Epoch (miliseconds) |
 ## 1.2 Phân tích các bussiness process
 ## 1.3 Thiết kế data warehouse
 # Chương 2: 
