@@ -1,13 +1,10 @@
-# Data_Enginner_Flatform
-
 <h2>Data_Engineer_Platform</h2>
 
 <table>
   <tr>
     <td>
 
-      <!-- Bảng 1 -->
-      <table>
+      <table border="1">
         <tr>
           <th>Header A1</th>
           <th>Header A2</th>
@@ -21,8 +18,7 @@
     </td>
     <td style="padding-left: 30px">
 
-      <!-- Bảng 2 -->
-      <table>
+      <table border="1">
         <tr>
           <th>Header B1</th>
           <th>Header B2</th>
@@ -36,4 +32,3 @@
     </td>
   </tr>
 </table>
-
