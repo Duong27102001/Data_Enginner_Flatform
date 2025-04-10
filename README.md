@@ -70,7 +70,7 @@
 
 ### c. Polygon
 &nbsp;&nbsp;&nbsp;&nbsp;- Source: [polygon.io - Daily Market Summary](https://polygon.io/docs/rest/stocks/aggregates/daily-market-summary).  </br>
-&nbsp;&nbsp;&nbsp;&nbsp;-	API này giúp truy xuất dữ liệu OHRC(giá mở cửa, cao nhất, thấp nhất và đóng cửa) hàng ngày của tất cả các cổ phiếu trên thị trường chứng khoán mỹ.
+&nbsp;&nbsp;&nbsp;&nbsp;-	API này giúp truy xuất dữ liệu OHRC(giá mở cửa, cao nhất, thấp nhất và đóng cửa) hàng ngày của tất cả các cổ phiếu trên thị trường chứng khoán mỹ.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;- Dữ liệu sau khi thu thập sẽ bao gồm các thuộc tính sau: </br>
 | Attribute | Description                                                                 |
 |-----------|-----------------------------------------------------------------------------|
