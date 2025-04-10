@@ -1,3 +1,5 @@
+<div style="font-size: 13px; line-height: 1.4;">
+
 | Attribute      | Description |
 |----------------|-------------|
 | `name`         | Tên công ty đã niêm yết trên sàn chứng khoán |
@@ -17,3 +19,5 @@
 | `currency`     | Đơn vị tiền tệ giao dịch cổ phiếu (ví dụ: USD, EUR) |
 | `location`     | Địa chỉ hoặc khu vực hoạt động chính của công ty |
 | `id`           | Định danh công ty |
+
+</div>
