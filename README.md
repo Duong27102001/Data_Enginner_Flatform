@@ -1,4 +1,4 @@
-<div style="font-size: 13px; line-height: 1.4;">
+<div style="font-size: 10px; line-height: 1.4;">
 
 | Attribute      | Description |
 |----------------|-------------|
