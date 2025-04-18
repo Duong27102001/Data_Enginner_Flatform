@@ -84,5 +84,7 @@
 | `n`       | Số lượng giao dịch (Number of Transactions) – Tổng số lần giao dịch diễn ra trong ngày |
 | `t`       | Thời gian giao dịch (Timestamp) – Mốc thời gian thể hiện ngày diễn ra giao dịch, thường được biểu thị theo Unix Epoch (miliseconds) |
 ## 1.2 Phân tích các bussiness process
+![Data Warehouse Design](image/ERD.png)
 ## 1.3 Thiết kế data warehouse
+![Data Warehouse Design](image/ERD.png)
 # Chương 2: 
