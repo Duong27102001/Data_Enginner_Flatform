@@ -84,7 +84,22 @@
 | `n`       | Số lượng giao dịch (Number of Transactions) – Tổng số lần giao dịch diễn ra trong ngày |
 | `t`       | Thời gian giao dịch (Timestamp) – Mốc thời gian thể hiện ngày diễn ra giao dịch, thường được biểu thị theo Unix Epoch (miliseconds) |
 ## 1.2 Phân tích các bussiness process
-![Data Warehouse Design](image/ERD.png)
+&nbsp;&nbsp;&nbsp;&nbsp; Giả sử, hiện nay công ty đang muốn tạo các data mart từ dữ liệu vừa thu thập được với các mục đích sau: </br>
+a.	Phân tích biến động của cổ phiếu </br>
+&nbsp;&nbsp;&nbsp;&nbsp; - 	Theo dõi các chỉ số OHLC (Open, High, Low, Close) của từng cổ phiếu theo từng khung thời gian (ngày, tuần, tháng, quý, năm). </br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	Phân tích xu hướng giá cổ phiếu (tăng, giảm, đi ngang). </br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	Dự đoán xu hướng giá tương lai dựa trên dữ liệu lịch sử và chỉ số phân tích kỹ thuật. </br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	Phân tích tín hiệu giữa giá và khối lượng giao dịch để phát hiện tín hiệu đầu tư. </br>
+b.	Phân tích cảm xúc và ảnh hưởng tin tức đến thị trường </br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	Theo dõi cảm xúc chung của thị trường (bullish, bearish, neutral) từ tin tức, mạng xã hội, diễn đàn tài chính. </br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	Xác định các chủ đề nổi bật (sự kiện kinh tế, chính trị...) ảnh hưởng đến tâm lý thị trường. </br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	Phân tích sentiment (tích cực, tiêu cực, trung lập) của các bài viết. </br>
+&nbsp;&nbsp;&nbsp;&nbsp; -	Đánh giá tác động của tin tức đến giá cổ phiếu cụ thể. </br>
+c.	Phân tích nhóm ngành và danh mục đầu tư </br>
+
 ## 1.3 Thiết kế data warehouse
 ![Data Warehouse Design](image/ERD.png)
-# Chương 2: 
+# Chương 2: XÂY DỰNG DATA PIPELINE VÀ TRIỂN KHAI HỆ THỐNG
+## 2.1 THIẾT KẾ HỆ THỐNG ELT
+![Data Warehouse Design](image/pipeline.PNG)
+## 2.2 C
