@@ -1,0 +1,5 @@
+config/config.conf
+logs
+.idea
+__pycache__
+spark_jars/
